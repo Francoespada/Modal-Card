@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+.cont-gral{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    width: 760px;
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.titulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #203774;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.titulo h1{
+    margin-left: 20px;
+}
+
+.titulo img{
+    margin-right: 20px;
+}
+
+.titulo img:hover{
+    cursor: pointer;
+}
+
+.calendario{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendario-arrow:hover{
+    cursor: pointer;
+}
+
+.calendario-date{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 50px;
+
+}
+
+.calendario-date p{
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.cont-cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards{
+    width: 60%;
+    height: 35%;
+    background-color: #203774;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.cards-data{
+    height: 100%;
+}
+
+.cards-data-pri{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.cards-data-pri button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 200ms ease;
+}
+
+.cards-data-pri button:hover{
+    cursor: pointer;
+    box-shadow: 6px 6px 3px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 6px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 3px 0px rgba(0,0,0,0.75);
+}
+
+.card-txt h1{
+    margin-bottom: 20px;
+}
+
+.card-txt h4{
+    font-weight: normal;
+}
+
+.cards-data-sec{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.card-prof{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cards-data-sec img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border: 3px solid #4868BD;
+    border-radius: 100%;
+}
